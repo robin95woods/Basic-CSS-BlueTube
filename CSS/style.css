@@ -1,0 +1,187 @@
+.logo{
+    display: flex;
+    width: 20%;
+    font-size: 15px;
+    position: relative;
+    left: 480px;
+    top: 120px;
+}
+
+.title1{
+    font-size: 80px;
+    text-decoration: underline overline;
+    padding: 3px;
+}
+
+.title2{
+    font-size: 80px;
+    text-decoration: underline;
+    padding: 50px 40px 50px 10px;
+    background-color: cornflowerblue;
+
+
+}
+
+.logo1{
+    display: flex;
+    border: solid black;
+    width: 6%;
+    height: 60px;
+    background-color: white;
+}
+
+.title3{
+    text-decoration: underline overline;
+}
+
+.title4{
+    text-decoration: underline;
+    padding: 20px 10px  20px 5px;
+    background-color: rgb(16, 34, 67);
+    color: cornsilk;
+}
+
+
+.navbar{
+    width: 99%; 
+    border: solid black 5px; 
+    height: 90px;
+    background-color: cornflowerblue;
+    position: relative;
+    bottom: 315px;
+    z-index: 6;
+}
+
+.link{
+    position:relative;
+    left: 200px;
+    font-size: 20px;
+    border: solid black 4px;
+    border-top: hidden;
+    height: 55px;
+    margin: 2px
+}
+
+.link:active{
+    background-color: white;
+}
+
+ul{
+  width: 100%;
+}
+
+li a{
+    display: inline;
+    color: black;
+    text-align: center;
+    padding: 10px 50px;
+    text-decoration: none;
+}
+
+.search1{
+border: solid black 3px;
+width: 14%;
+height: 30px;
+float: right;
+background-color: white;
+padding: 5px;
+position: relative;
+left: 645px;
+top: 10px;
+}
+
+.flex-container-right{
+float: right;
+position: relative;
+bottom: 180px;
+background-color: cornflowerblue;
+padding: 20px;
+border: solid black 8px;
+margin: auto;
+text-align: center;
+}
+
+.subhead1{
+    text-decoration: underline;
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    border: solid black 2px;
+    border-radius: 10px;
+}
+
+.vidtitle{
+    border: solid black 1px;
+    padding: 2px;
+    background-color: black;
+    color: white;
+}
+
+.main{
+    margin-top: 50px;
+    margin-bottom: 10%;
+    float: left;
+    margin-left: 2%;
+    background-color: cornflowerblue;
+    border: groove black 5px;
+    border-radius: 1%;
+    width: 75%;
+    position: static;
+}
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    
+}
+
+.box{
+    background: rgb(10, 10, 10);
+    border: solid white;
+    transition: transform 300ms ease 100ms;
+    height: 260px;
+    border-radius: 20%;
+    box-shadow: 5px 10px 20px 10px #0064fad5;
+    margin: auto;
+    padding-top: 40px;
+}
+
+iframe:hover{
+    width: 320px;
+    height: 230px;
+}
+
+
+label{
+   font-size: 13px;
+   position: relative;
+   bottom: 100px;
+   right: 700px;
+  
+   
+}
+.email{
+    font-size: 20px;
+    float: right;
+    position: relative;
+    right: 870px;
+    bottom: 95px;
+    border: double black;
+    
+}
+
+.button{
+    float: right;
+    font-size: 20px;
+    position: relative;
+    right: 545px;
+    bottom: 95px;
+    border: double black;
+    
+}
